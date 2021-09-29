@@ -6,7 +6,7 @@ import java.awt.geom.*;
  *
  * @author  Michael Kölling and David J. Barnes
  * @author Nick Day
- * @version 1.1  (15 July 2021)
+ * @version 1.1  (29 September 2021)
  */
 
 public class Circle
