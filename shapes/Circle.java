@@ -16,6 +16,7 @@ public class Circle
     private int yPosition;
     private String color;
     private boolean isVisible;
+    private Circle circle1;
 
     /**
      * Create a new circle at default position with default color.
@@ -55,6 +56,11 @@ public class Circle
         moveHorizontal(20);
     }
 
+    public int getDiameter()
+    {
+        return diameter;
+    }
+    
     /**
      * Move the circle a few pixels to the left.
      */
@@ -119,7 +125,7 @@ public class Circle
         for(int i = 0; i < distance; i++)
         {
             xPosition += delta;
-            draw();
+            draw();            
         }
     }
 
