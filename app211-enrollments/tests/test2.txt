@@ -1,0 +1,33 @@
+Student ben = new Student("Ben", 20192726);
+Student conor = new Student("Conor", 28162641);
+conor.getName()
+    returned String "Conor"
+conor.getID()
+    returned int 28162641
+conor.print();
+ Student ID: 28162641 Name: Conor
+Course gamesDevelopment = new Course("BT1GDV1", "Games Development");
+gamesDevelopment.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: Games Development
+
+Student ben = new Student("Ben", 20163521);
+Course gamesDevelopment = new Course("BT1GDV1", "BSc Games Development");
+ben.enrol(gamesDevelopment);
+ben.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+
+gamesDevelopment.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: BSc Games Development
+
