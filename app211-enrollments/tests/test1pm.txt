@@ -1,0 +1,26 @@
+Course computing = new Course("BT1CTG1", "Computing");
+Student eddy = new Student("Eddy", 21039123);
+eddy.getID()
+    returned int 21039123
+eddy.getName()
+    returned String "Eddy"
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Computing
+
+eddy.print();
+ Student ID: 21039123 Name: Eddy
+eddy.enrol(computing);
+eddy.enrol(computing);
+eddy.print();
+ Student ID: 21039123 Name: Eddy
+eddy.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Computing
+
