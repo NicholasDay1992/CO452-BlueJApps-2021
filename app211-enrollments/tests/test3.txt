@@ -1,0 +1,31 @@
+Student tomas = new Student("Tomas", 21019221);
+tomas.getName()
+    returned String "Tomas"
+Student lottie = new Student("Lottie", 21085352);
+Student zarrar = new Student("Zarrar", 51242132);
+Course computing = new Course("BT1CTG1", "Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Computing
+
+Student james = new Student("James", 21182712);
+james.print();
+ Student ID: 21182712 Name: James
+james.enrol(computing);
+james.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Computing
+
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: Computing
+
